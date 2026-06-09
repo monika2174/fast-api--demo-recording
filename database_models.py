@@ -10,3 +10,8 @@ class Product(Base):
    description = Column(String(200))
    price = Column(Float)
    quantity = Column(Integer)
+   email = Column(String(100))
+   password = Column(String(100))
+   add_to_cart = Column(String(100))
+   update_cart = Column(String(100))
+   remove_from_cart = Column(String(100))
